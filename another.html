@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+      }
+
+      body {
+        width: 100vw;
+        height: 100vh;
+      }
+      .flag {
+        background-color: rgb(255, 255, 255);
+        width: 60vw;
+        height: 60vh;
+        margin: 20vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      .blu{
+        background-color: blue;
+        width: 60vw;
+        height: 12vh;
+      }
+
+      .triangle{
+        -webkit-clip-path: polygon(0 0, 0% 100%, 48% 49%);
+clip-path: polygon(0 0, 0% 100%, 48% 49%);
+background: red;
+position: absolute;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flag">
+      <div class="blu"></div>
+      <div class="blu"></div>
+      <div class="blu"></div>
+      <div class="triangle"></div>
+    </div>
+  </body>
+</html>
