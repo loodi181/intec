@@ -7,9 +7,6 @@
     <title>Document</title>
 
     <style>
-      * {
-      }
-
       body {
         width: 100vw;
         height: 100vh;
@@ -24,18 +21,42 @@
         justify-content: space-between;
       }
 
-      .blu{
+      .blu {
         background-color: blue;
         width: 60vw;
         height: 12vh;
       }
 
-      .triangle{
+      .triangle {
         -webkit-clip-path: polygon(0 0, 0% 100%, 48% 49%);
-clip-path: polygon(0 0, 0% 100%, 48% 49%);
-background: red;
-position: absolute;
+        clip-path: polygon(0 0, 0% 100%, 48% 49%);
+        background: red;
+        color: brown;
+        height: 40vh;
+        width: 40vw;
+        position: absolute;
+        margin-top: 10vh;
+      }
 
+      .sta {
+        clip-path: polygon(
+          50% 0%,
+          61% 35%,
+          98% 41%,
+          68% 57%,
+          79% 91%,
+          50% 70%,
+          21% 91%,
+          32% 57%,
+          2% 35%,
+          39% 35%
+        );
+        border: 2px solid rgb(210, 0, 0);
+        height: 100px;
+        width: 100px;
+        background-color: rgb(255, 255, 255);
+        margin-top: 60px;
+        margin-left: 20px;
       }
     </style>
   </head>
@@ -44,7 +65,9 @@ position: absolute;
       <div class="blu"></div>
       <div class="blu"></div>
       <div class="blu"></div>
-      <div class="triangle"></div>
+      <div class="triangle">
+        <div class="sta"></div>
+      </div>
     </div>
   </body>
 </html>
