@@ -1,0 +1,68 @@
+.container {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 100px 100px;
+    height: 100vh;
+    justify-content: space-around;
+    justify-items: center;
+    margin-bottom: 70px;
+  }
+
+  .flag1 {
+    border: solid black 1px;
+    height: 50vh;
+    width: 80vh;
+    background: linear-gradient(
+      to right,
+      #009343 33%,
+      #fff 33%,
+      #fff 66%,
+      #cf2734 0
+    );
+  }
+
+
+  .flag2 {
+    border: solid rgb(116, 10, 10) 1px;
+    height: 50vh;
+    width: 80vh;
+    background-color: #009c37;
+    position: relative;
+  }
+  .diamond {
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    background-color: #f5ff39;
+    height: 30vh;
+    width: 50vh;
+    position: absolute;
+    margin-top: 11vh;
+    margin-left: 15vh;
+  }
+  .brazil__logo {
+    height: 20vh;
+    width: 20vh;
+    margin-top: 30px;
+    margin-left: 90px;
+  }
+
+
+  .flag3 {
+    border: solid black 1px;
+    height: 50vh;
+    width: 80vh;
+    margin-top: 260px;
+    background: linear-gradient(
+      to right,
+      #000000 33%,
+      #f0b813 33%,
+      #f0b813 66%,
+      #b81422 0
+    );
+  }
+
+  .flag4 {
+    border: solid black 1px;
+    height: 50vh;
+    width: 80vh;
+    margin-top: 260px;
+  }
